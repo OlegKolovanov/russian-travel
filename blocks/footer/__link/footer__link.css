@@ -1,0 +1,16 @@
+.footer__link{
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+  padding-right: 18px;
+  font-size: 16px;
+  line-height: 18px;
+  max-width: 50px;
+  font-family: "Inter";
+}
+@media screen and (max-width:750px) {
+  .footer__link{
+    padding-top:32px;
+    padding-right:0;
+  }
+}
