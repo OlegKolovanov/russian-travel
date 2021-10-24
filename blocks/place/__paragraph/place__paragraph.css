@@ -1,32 +1,36 @@
-.place__paragraph{
+.place__paragraph {
   font-size: 18px;
   color: #fff;
   margin: 0;
   grid-column: 2;
   grid-row: 2;
   padding-bottom: 26px;
-  max-width:484px;
+  max-width: 484px;
   line-height: 163%;
   font-family: "Inter";
+  font-weight: normal;
 }
 
-.place__paragraph:nth-of-type(2n){
+.place__paragraph:nth-of-type(2n) {
   padding-bottom: 0;
 }
+
 @media screen and (max-width: 768px) {
- .place__paragraph{ 
-  font-size: 16px;
-  line-height: 163%;
- }  
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+  }
 }
+
 @media screen and (max-width: 760px) {
-  .place__paragraph{ 
-   grid-column: 1;
-   grid-row: 4;
-  }  
- }
+  .place__paragraph {
+    grid-column: 1;
+    grid-row: 4;
+  }
+}
+
 @media screen and (max-width: 500px) {
-  .place__paragraph{ 
+  .place__paragraph {
     padding-bottom: 25px;
-  }  
- }
+  }
+}
