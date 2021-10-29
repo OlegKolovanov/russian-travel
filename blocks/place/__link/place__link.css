@@ -2,6 +2,7 @@
   color: #fff;
   margin: 0;
   font-size: 18px;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: normal;
+  line-height: 1.22;
 }

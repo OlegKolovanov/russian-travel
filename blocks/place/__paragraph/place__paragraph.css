@@ -6,8 +6,8 @@
   grid-row: 2;
   padding-bottom: 26px;
   max-width: 484px;
-  line-height: 163%;
-  font-family: "Inter";
+  line-height: 1.63;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: normal;
 }
 
@@ -15,10 +15,9 @@
   padding-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 163%;
   }
 }
 
@@ -26,6 +25,8 @@
   .place__paragraph {
     grid-column: 1;
     grid-row: 4;
+    margin: auto;
+    max-width: 400px;
   }
 }
 

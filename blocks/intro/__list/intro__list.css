@@ -1,13 +1,13 @@
 .intro__list {
   max-width: 690px;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 1.5;
   color: #fff;
   margin: 0;
   padding: 33px 0 0;
   list-style-type: none;
-  font-family: "Inter";
-  font-weight: bold;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 400;
 }
 
 @media screen and (max-width:329px) {

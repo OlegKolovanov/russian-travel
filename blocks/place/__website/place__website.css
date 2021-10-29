@@ -9,5 +9,6 @@
   .place__website {
     grid-column: 1;
     grid-row: 2;
+    justify-self: center;
   }
 }
