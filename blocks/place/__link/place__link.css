@@ -5,4 +5,5 @@
   font-family: "Inter", "Arial", sans-serif;
   font-weight: normal;
   line-height: 1.22;
+  transition: opacity linear 0.3s;
 }
